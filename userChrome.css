@@ -1,0 +1,32 @@
+* {
+    --tab-min-height: 1em !important;
+    --toolbarbutton-inner-padding: 0.5em  !important;
+    --tab-block-margin: 0  !important;
+    --tab-border-radius: 0  !important;
+    --urlbar-container-height: 2.5em !important;
+    --urlbar-height: 2.5em !important;
+    --toolbarbutton-border-radius: 0 !important;
+    --panel-border-radius: 0 !important;
+}
+
+.titlebar-spacer[type="pre-tabs"] {
+    display: none;
+}
+
+.tabbrowser-tab {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+/* Always show tab close button on hover */
+.tabbrowser-tab:hover > .tab-stack > .tab-content > .tab-close-button {
+    display: flex !important;
+}
+
+.menu-iconic-icon {
+    padding: 0 !important;
+}
+
+panelmultiview {
+    
+}
